@@ -1,19 +1,19 @@
 {
-  "name": "brother",
+  "name": "annapurna",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.21.1",
-    "bootstrap": "^4.5.2",
-    "google-map-react": "^1.0.9",
-    "google-maps-react": "^2.0.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "bootstrap": "^4.6.0",
+    "google-map-react": "^1.1.7",
+    "google-maps-react": "^2.0.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5",
+    "react-scripts": "^2.0.5",
     "reactstrap": "^6.5.0",
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   },
   "scripts": {
     "start": "react-scripts start",
