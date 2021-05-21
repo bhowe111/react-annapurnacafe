@@ -1,6 +1,6 @@
 import React from "react";
 import "./brand.css";
-import logo from "../../../Assets/icons/white-hand.png";
+import logo from "../../../Assets/images/AnnapurnaCafeLogoLarge.png";
 
 const brand = (props) => {
   let vclass = " ";
@@ -11,12 +11,11 @@ const brand = (props) => {
   all_class.push(vclass);
   return (
     <div className={all_class.join(" ")}>
-      <p className="brandnum">2</p>
-      <p className="name">BROTHER</p>
+      <p className="name">Annapurna Cafe</p>
       <div className="image-container">
-        <img src={logo} alt="Compoany Logo" />
+        <img src={logo} alt="Company Logo" />
       </div>
-      <p className="lastTitle">Pizza and Burger</p>
+      <p className="lastTitle">Tibetan and Nepalese Kitchen</p>
     </div>
   );
 };
